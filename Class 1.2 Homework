@@ -1,0 +1,45 @@
+Homework 1
+
+#define variable
+a=2
+b=5
+import math as mt
+#this import of math as mt did not work, I had to do it again below
+# not sure what are the 10 functions-only done 5
+
+#sum,subtract,multiply, divide
+print (f"the sum of a and b is {a+b},a minus b is {a-b}, a multiplied by b is {a*b}, a divided by b is {a/b}")
+
+# exponent
+import math as mt
+print (f"a to the power of b is {mt.pow(a,b)} and b to the power of a is {mt.pow(b,a)}")
+
+
+
+Homework 2-odd, even, prime number
+Pending
+# still trying to figure out how to identify primes..this homework is not complete
+
+for i in range(1,101):
+ if i%2==0:
+  print (i,"even")
+ else:
+        if i%7==0:
+            print (i,"prime")
+        else:
+          print(i,"odd")
+
+
+Homework 2-fizzbuzz
+for i in range (1,101):
+    if i%15==0:
+        print (i,"fizzbuzz")
+    else:
+        if i%3==0:
+            print(i,"fizz")
+        else:
+             if i%5==0:
+                    print (i,"buzz")
+
+
+
